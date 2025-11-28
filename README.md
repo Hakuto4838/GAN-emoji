@@ -25,7 +25,7 @@
 
 ## 檔案結構
 
-- `q2_demo.py`: 主程式入口，包含 GUI 邏輯。
+- `main.py`: 主程式入口，包含 GUI 邏輯。
 - `preprocess_data.py`: 圖片前處理工具，將含透明背景的圖片轉為黑色背景，以便於 GAN 訓練。
 - `module/`: 包含模型定義與輔助功能的模組。
   - `gan.py`: 定義 Generator 與 Discriminator 類別。

@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, QComboBox, QGroupBox, QSizePolicy, QSpacerItem, QLineEdit, QSlider
 )
-from module import MNIST, basic, emoji
+from module import basic, emoji
 from PyQt5.QtGui import QPixmap, QImage
 from PIL import Image, ImageQt
 import os
@@ -11,7 +11,7 @@ import os
 class mainclass(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Homework 2-2")
+        self.setWindowTitle("DCGAN Emoji Generator")
         self.initUI()
         self.net = emoji.emoji()
 
@@ -68,7 +68,6 @@ class mainclass(QWidget):
 
 
 
-
     
 
 if __name__ == "__main__":
@@ -76,3 +75,4 @@ if __name__ == "__main__":
     window = mainclass()
     window.show()
     sys.exit(app.exec())
+
