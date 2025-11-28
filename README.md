@@ -2,6 +2,11 @@
 
 這是一個使用 Deep Convolutional GAN (DCGAN) 生成 Emoji 的專案，並包含一個 PyQt5 圖形介面 (GUI) 進行展示與操作。
 
+## 範例圖片
+
+![Example](example.png)
+
+
 ## 功能
 
 1.  **Show Training Images**: 展示用於訓練的 Emoji 圖片以及增強圖片範例。
