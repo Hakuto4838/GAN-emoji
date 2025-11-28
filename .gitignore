@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Project specific - Data
+Newemoji/
+
+# Project specific - Generated Output
+train/ganimg/
+
+# Model Weights
+*.pt
+*.pth
+
